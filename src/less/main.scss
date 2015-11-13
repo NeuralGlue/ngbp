@@ -10,7 +10,10 @@
  * project should be imported as the rest are just wasting space.
  */
 
-@import '../../vendor/bootstrap/less/bootstrap.less';
+/** We no longer use Bootstrap, but leaving this here was a reminder that we need
+* to import the angular-material scss files
+**/
+@import '../../vendor/angular-material/angular-material.scss';
 
 
 /**
@@ -18,7 +21,7 @@
  * definitions in our imported stylesheets.
  */
 
-@import 'variables.less';
+@import 'variables';
 
 
 /**
@@ -29,7 +32,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto Regular'), local('Roboto-Regular'), url(fonts/Roboto-Regular.woff) format('woff');
+  src: local('Roboto Regular'), local('Roboto-Regular'), format('woff');
 }
 
 code, pre, .pre {
@@ -98,13 +101,14 @@ h2 {
       margin-left: 20px;
 
       a, a:visited {
-        color: @gray-light;
+        /*color: @gray-light; */
         text-decoration: none;
         font-size: 40px;
+        /*
         .transition( 250ms ease-in-out );
-
+        */
         &:hover {
-          color: @gray;
+          /*color: @gray;*/
         }
       }
     }
@@ -117,7 +121,8 @@ h2 {
  * all the submodules and components we are using. 
  *
  * TODO: In a later version of this boilerplate, I'd like to automate this.
+
  */
 
-@import '../app/home/home.less';
+@import '../app/home/home.scss';
 

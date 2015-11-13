@@ -2,6 +2,7 @@
 
 An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
 
+This time without Bootstrap, but with Angular-Material!
 ***
 
 ## Quick Start
@@ -27,9 +28,8 @@ Happy hacking!
 with which to kickstart AngularJS projects. It contains a best-practice
 directory structure to ensure code reusability and maximum scalability.
 ngBoilerplate also comes prepackaged with the most popular design frameworks
-around: [Twitter Bootstrap](http://getbootstrap.com),
+around: [Angular Material](https://material.angularjs.org/latest/),
 [Angular UI](http://angular-ui.github.io),
-[Angular Bootstrap](http://angular-ui.github.io/bootstrap),
 [Font Awesome](http://fortawesome.github.com/Font-Awesome), and
 [LESS](http://lesscss.org). Lastly, it contains a sophisticated
 [Grunt](http://gruntjs.org)-based build system to ensure maximum productivity.
