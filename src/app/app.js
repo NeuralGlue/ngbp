@@ -18,6 +18,7 @@ angular.module( 'ngBoilerplate', [
     if ( angular.isDefined( toState.data.pageTitle ) ) {
       $scope.pageTitle = toState.data.pageTitle + ' | ngBoilerplate' ;
     }
+      $scope.menuCollapsed = true;
   });
 })
 

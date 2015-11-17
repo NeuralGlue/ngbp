@@ -8,10 +8,10 @@
 /**
  * First, we include the Twitter Bootstrap LESS files. Only the ones used in the
  * project should be imported as the rest are just wasting space.
- */
+
 
 @import '../../vendor/bootstrap/less/bootstrap.less';
-
+ */
 
 /**
  * This is our main variables file. We must include it last so we can overwrite any variable
@@ -25,12 +25,6 @@
  * Typography
  */
 
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Regular'), local('Roboto-Regular'), url(fonts/Roboto-Regular.woff) format('woff');
-}
 
 code, pre, .pre {
   padding: 5px;
@@ -98,13 +92,13 @@ h2 {
       margin-left: 20px;
 
       a, a:visited {
-        color: @gray-light;
+        color: lightgray;
         text-decoration: none;
         font-size: 40px;
-        .transition( 250ms ease-in-out );
+        /* .transition( 250ms ease-in-out ); */
 
-        &:hover {
-          color: @gray;
+        :hover {
+          color: lightblue;
         }
       }
     }
